@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --Pale-Blue: rgb(202, 202, 202);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Start header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 17px;
+}
+
+header .logo{
+    width: 100px;
+}
+
+header .btn-header{
+    text-transform: capitalize;
+    color: hsl(322, 100%, 66%);
+    background-color: transparent;
+    padding: 1rem 4rem;
+    border: 1px solid var(--light-pink);
+    border-radius: 20px;
+    box-shadow: 0 0 4px hsla(322, 100%, 66%, 0.658);
+}
+/* End header*/
+
+.section{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Start main*/
+main.section{
+    flex-direction: column;
+}
+
+main h1{
+    color: var(--dark-cyan);
+}
+
+main p{
+    margin-top: 10px;
+    text-align: center;
+    color: var(--Pale-Blue);
+}
+
+main .main-btn{
+    margin-top: 30px;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 30px;
+    background-color: var(--pink);
+    color: white;
+    box-shadow: 0 0 4px #000;
+    transition: 0.5s all ease;
+}
+
+main .main-btn:hover{
+    background-color: var(--light-pink);
+}
+
+main .main-image .img{
+    width: 700px;
+    margin-top: 60px;
+}
+
+main .communities-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .communities-container .unit{
+    padding: 0 90px 0 90px;
+}
+
+main .communities-container .unit h3{
+    font-size: 30px;
+    color: var(--dark-cyan);
+}
+
+main .communities-container .unit img{
+    width: 20px;
+}
+/*End main*/
+/*Start  grow*/
+.grow .container img{
+    width: 1000px;
+    position: relative;
+    top: 10px;
+}
+
+.grow .container .back-2{
+    transform: scale(-1);
+    top: 0;
+}
+
+.grow .container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6fbff;
+    padding: 20px;
+}
+
+.grow .container .content img{
+    width: 300px;
+}
+
+.grow .container .content .content-text{
+    margin: 20px;
+}
+
+.grow .container .content .content-text h2{
+    margin-bottom: 20px;
+    color: var(--dark-cyan);
+}
+
+.grow .container .content .content-text p {
+    font-size: 12px;
+    color: var(--dark-cyan);
+}
+/*End  grow*/
+
+/* Start section two*/
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.section-two div img{
+    width: 300px;
+}
+
+.section-two .content h2{
+    font-size: 30px;
+    color: var(--dark-cyan);
+    margin-bottom: 25px;
+}
+
+.section-two .content p{
+    font-size: 16px;
+    color: var(--dark-cyan);
+}
+/* End section two*/
+
+/*Start section three*/
+.section-three .container img{
+    width: 1000px;
+    position: relative;
+    top: 10px;
+}
+
+.section-three .container .back-2{
+    transform: scale(-1);
+}
+
+.section-three .container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6fbff;
+    padding: 20px;
+}
+
+.section-three .container .content img{
+    width: 300px;
+    margin-left: 25px;
+}
+
+.section-three .container img:last-child{
+    top: 0;
+}
+
+.section-three .container .content-text h2{
+    color: var(--dark-cyan);
+    margin-bottom: 15px;
+}
+
+.section .container .content-text p{
+    font-size: 12px;
+    color: var(--dark-cyan);
+}
+/*End section three*/
+
+/*Start section four*/
+.section-four.section{
+    flex-direction: column;
+}
+
+.section-four h2{
+    color: var(--dark-cyan);
+}
+
+.section-four .section-four-btn{
+    margin-top: 30px;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 30px;
+    background-color: var(--pink);
+    color: white;
+    box-shadow: 0 0 4px #000;
+    transition: 0.5s all ease;
+}
+
+.section-four .section-four-btn:hover{
+    background-color: var(--light-pink);
+}
+/*End section four*/
+
+/*Start footer*/
+footer .img img{
+    width: 1005px;
+    position: relative;
+    top: 5px;
+}
+
+footer .container{
+    background-color: #01262f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .flex-1, .flex-2{
+    margin: 30px;
+}
+
+footer .container .flex-1 .logo-footer{
+    width: 200px;
+    filter: invert(99%) sepia(100%) saturate(0%) hue-rotate(78deg) brightness(104%) contrast(100%);
+    margin-bottom: 15px;
+ }
+
+ footer .container .flex-1 .content p{
+     color: white;
+     margin-bottom: 20px;
+     line-height: 25px;
+ }
+
+ footer .container .flex-1 .contact{
+     color: white;
+ }
+
+ footer .container .flex-1 .contact i{
+     margin-right: 10px;
+     margin-bottom: 20px;
+ }
+
+ footer .container .flex-1 .social-media a{
+    color: white;
+ }
+
+ footer .container .flex-1 .social-media a i{
+     font-size: 25px;
+     margin: 18px;
+ }
+
+ footer .container .flex-2 .content {
+    color: white;
+    margin-bottom: 30px;
+    line-height: 25px;
+ }
+
+ footer .container .flex-2 .content h3{
+     margin-bottom: 20px;
+ }
+
+ footer .container .flex-2 .subscribe-box{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ footer .container .flex-2 .subscribe-box input{
+     padding: 10px;
+     border-radius: 5px;
+ }
+
+ footer .container .flex-2 .subscribe-box .subscribe-btn{
+     padding: 10px 30px;
+     background-color: var(--pink);
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     color: white;
+     font-weight: 600;
+     transition: 0.5s all ease;
+ }
+
+ footer .container .flex-2 .subscribe-box .subscribe-btn:hover{
+    background-color: var(--light-pink);
+ }
+/*End footer*/
